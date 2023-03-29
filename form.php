@@ -4,10 +4,19 @@
 	<title>Database</title>
 </head>
 <body>
-		<h1>Contact us</h1>
+
+<link rel="stylesheet" href="style.css">
+
+		<h1 class = "header" >Contact us</h1>
 		<form action="" method="post">
 			
-<p>       <select name = "category" id="category" placeholder = "Customer service">
+        <div class ="cat-title">
+        <label for="cat-title">Category</label>
+        </div>
+
+<p class ="cat-box">       
+    
+        <select name = "category" id="category" placeholder = "Customer service">
             <option>Customer Service</option>
             <option>Finance</option>
             <option>Trade Business Accounts</option>
@@ -15,20 +24,28 @@
         <br>
 			</p>
 
-<p>
+<p class = "email">
+
 			<label for="emailAddress">Email</label>
+        </p>
+            
+            <p class = "email-box">
 			<input type="text" name="email" id="emailAddress">
 			</p>
 
 			
-<p>
+<p class = "message" >
 			<label for="message">Message</label>
+            </p>
+
+            <div class = "text-box">
 			<input type="text" name="message" id="messageBox">
-			</p>
-
+			</div>
+<div class ="submit">
 			<input type="submit" value="Submit">
-		</form>
+</div>
 
+    </form>
 
 
 
