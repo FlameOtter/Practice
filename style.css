@@ -1,0 +1,61 @@
+.header{
+
+    text-align: center;
+    position: relative; top: 350px;
+
+}
+
+
+.cat-title{
+
+    text-align: center;
+    position: relative; right: 150px; top: 435px;
+    
+
+}
+
+
+.cat-box{
+
+
+    text-align: center;
+    position: relative; top: 400px;
+}
+
+
+
+.email{
+
+text-align: center;
+position: relative; right: 150px; top: 435px;
+
+}
+
+
+.email-box{
+
+    text-align: center;
+    position: relative; top: 400px;
+
+}
+
+
+.message{
+
+    text-align: center;
+    position: relative; right: 150px; top: 435px;
+
+}
+
+.text-box{
+
+    text-align: center;
+    position: relative; top: 400px;
+
+}
+.submit{
+
+    text-align: center;
+    position: relative; top: 435px; left:  150px;
+
+}
